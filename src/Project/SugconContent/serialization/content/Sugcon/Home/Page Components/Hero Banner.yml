@@ -1,0 +1,44 @@
+﻿---
+ID: "577fa16e-e3cd-4a02-a754-49fd9c422a18"
+Parent: "e78e7bf7-262b-4c86-b3c7-85aaecce7722"
+Template: "9a23bb5b-f128-4b41-a63a-6469f50a53cd"
+Path: /sitecore/content/Sugcon/Home/Page Components/Hero Banner
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190311T193119Z
+    - ID: "49cb22f4-3ac2-457f-8b83-0360a60c2155"
+      Hint: Image
+      Value: |
+        <image mediaid="{3FB0218B-D327-4027-9C7A-EC07B3C0D0B7}" alt="Sugcon" height="" width="" hspace="" vspace="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc5f4384-cf40-4813-a6d3-c227267a6662"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c3bc9765-75e4-4ff2-a3e0-3daa8f420627"
+      Hint: Title
+      Value: "SUGCON Europe Home 2022, 24-25 March"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220303T150824Z
+    - ID: "f22a8600-dd07-447b-a7d6-44adbf9e45fc"
+      Hint: Subtitle
+      Value: The Sitecore User Group Conference (SUGCON) brings the Sitecore user community together and provides the perfect platform to gain knowledge and get inspired by the potential within Sitecore Experience Cloud, Experience Commerce, Content Hub and more. After many very successful events, we are expecting over 500 attendees to attend the event.

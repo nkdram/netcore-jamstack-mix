@@ -1,0 +1,35 @@
+{
+    "namespace": "Foundation.Caching",   
+    "items": {
+      "includes": [
+        //{
+        //  "name": "templates",
+        //  "path": "/sitecore/templates/Foundation/Caching"
+        //},
+		//{
+        //  "name": "renderings",
+        //  "path": "/sitecore/layout/renderings/Foundation/Caching"
+		//}
+        //,{
+        //  "name": "media",
+        //  "path": "/sitecore/media library/Foundation/Caching"
+        //},
+        //{
+        //  "name": "settings",
+        //  "path": "/sitecore/media library/Foundation/Caching"
+        //},
+        //{
+        //  "name": "branches",
+        //  "path": "/sitecore/templates/Branches/Foundation/Caching"
+        //},
+        //{
+        //  "name": "placeholdersettings",
+        //  "path": "/sitecore/layout/Placeholder Settings/Foundation/Caching"
+        //},
+		//{
+        //  "name": "layouts",
+        //  "path": "/sitecore/layout/Layouts/Project/Caching"
+        //}
+      ]
+    }
+  }

@@ -1,0 +1,41 @@
+﻿@model Sugcon.Feature.Articles.Rendering.Models.Blog
+
+<div class="blogheader">
+    <h2 asp-for="Title"></h2>
+</div>
+<div class="blogrow">
+    <div class="blogleftcolumn">
+        <div class="blogcard">
+            <span class="blogdate">Publish Date : @Model.BlogDate.Value</span>
+            <p class="blogcontentblock"><sc-text asp-for="BlogDetail"></sc-text></p>
+        </div>
+    </div>
+    <div class="blogrightcolumn">
+        <div class="blogcard">
+            <h2>About Author</h2>
+            <h2 class="authorName">@Model.AuthorDetails.Fields.AuthorName.Value</h2>
+            <div class="blogimg">
+                <img src="@Model.AuthorDetails.Fields.AuthorProfilePicture.Value.Src"
+                     alt="@Model.AuthorDetails.Fields.AuthorProfilePicture.Value.Alt" />
+                <p class="authordescription">@Model.AuthorDetails.Fields.AuthorDescription.Value</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="blogcomments">
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+        this.page.url = @Model.CanonicalURL;
+        this.page.identifier = Model.identifier;
+    };
+
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://Sugcon-noteamname.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+</div>

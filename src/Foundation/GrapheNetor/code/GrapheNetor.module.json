@@ -1,0 +1,35 @@
+{
+    "namespace": "Foundation.GrapheNetor",   
+    "items": {
+      "includes": [
+        //{
+        //  "name": "templates",
+        //  "path": "/sitecore/templates/Foundation/GrapheNetor"
+        //},
+		//{
+        //  "name": "renderings",
+        //  "path": "/sitecore/layout/renderings/Foundation/GrapheNetor"
+		//}
+        //,{
+        //  "name": "media",
+        //  "path": "/sitecore/media library/Foundation/GrapheNetor"
+        //},
+        //{
+        //  "name": "settings",
+        //  "path": "/sitecore/media library/Foundation/GrapheNetor"
+        //},
+        //{
+        //  "name": "branches",
+        //  "path": "/sitecore/templates/Branches/Foundation/GrapheNetor"
+        //},
+        //{
+        //  "name": "placeholdersettings",
+        //  "path": "/sitecore/layout/Placeholder Settings/Foundation/GrapheNetor"
+        //},
+		//{
+        //  "name": "layouts",
+        //  "path": "/sitecore/layout/Layouts/Project/GrapheNetor"
+        //}
+      ]
+    }
+  }

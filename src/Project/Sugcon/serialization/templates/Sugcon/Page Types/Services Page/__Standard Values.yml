@@ -1,0 +1,49 @@
+﻿---
+ID: "79d96a3d-ac4c-4f54-9856-7b2087a3fd97"
+Parent: "238e9257-b586-48ac-ae9f-7a13efc88d35"
+Template: "238e9257-b586-48ac-ae9f-7a13efc88d35"
+Path: /sitecore/templates/Project/Sugcon/Page Types/Services Page/__Standard Values
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{2218ad4f-87c8-4686-9c44-d36d509562d6}">
+        <r
+          id="{cd5f924a-f7ff-4da4-b529-1d6c2284b78c}"
+          ph="header"
+          uid="{5B4893F1-86BA-4ABA-8CB3-1BD6B0D10CB0}" />
+        <r
+          id="{3f703f0a-46be-45f6-bdff-3ae31cc56c21}"
+          ph="footer"
+          uid="{D40CD9A3-CC19-4772-AA17-191F399340C9}" />
+        <p
+          key="main"
+          uid="{8837E154-ED07-430A-868E-AE5DB95C8DD4}"
+          md="{d4a63775-7fcb-4057-9e1f-7286bad81f67}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190507T142516Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "74c7354a-b6cb-4759-8f24-e19cb622d0a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+          extranet\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190930T183117Z

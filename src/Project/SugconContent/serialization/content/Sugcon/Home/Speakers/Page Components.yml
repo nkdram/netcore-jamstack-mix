@@ -1,0 +1,32 @@
+﻿---
+ID: "3343b126-674d-41f2-878c-9a29af3305d3"
+Parent: "3bb89b76-1b59-4a4d-8357-c6638fd93e73"
+Template: "8e2a07f9-c938-48fd-9104-9ebf9b323276"
+Path: /sitecore/content/Sugcon/Home/Speakers/Page Components
+BranchID: "d6f5363e-f079-40fe-8de3-e36e5c721321"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{25D29758-44ED-4F51-B1DB-264A1D1EB1DB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220121T145826Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "db5b1382-a905-49d9-bd3c-1086cc095de6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220121T145826Z

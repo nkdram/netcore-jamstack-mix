@@ -1,0 +1,41 @@
+﻿---
+ID: "a525c9c8-3638-45d5-b769-7e67ae161519"
+Parent: "385ded77-1f35-498c-b1bb-07a901f619aa"
+Template: "2ac9f56b-53e0-4d83-9b04-a826af9dbdc0"
+Path: /sitecore/content/Sugcon/Shared Content/Promo Cards/Flexible Static Static Site Personalization at the Edge
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T083836Z
+    - ID: "2a1b85a6-092f-4129-bf11-c2f7e02ab1f2"
+      Hint: Headline
+      Value: "Flexible Static: Static Site Personalization at the Edge"
+    - ID: "53945166-53c0-4646-9e82-34bade503c72"
+      Hint: Image
+      Value: |
+        <image mediaid="{773E7FE1-D8ED-466A-957E-364288119232}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6d98cdb5-e980-4e48-b246-71e1b01b3989"
+      Hint: Text
+      Value: "Applications built with static site generation (SSG) are known for being fast, but lack flexibility and personalization. That ends now! Vercel middleware functions at the edge and Next.js."
+    - ID: "87853995-6e28-466d-a5e4-c1bdbf3974bb"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{98667934-0137-49D0-9BC7-45EE30C532BF}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8b6c5e5b-69b7-48a3-8811-1a49b7069a15"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220125T085403Z

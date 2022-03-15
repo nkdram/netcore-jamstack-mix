@@ -1,0 +1,64 @@
+﻿---
+ID: "07c8559a-aaa3-4a52-aa28-746c1b8b7678"
+Parent: "18e861cf-7c83-4d1d-9620-f39b1c9675c3"
+Template: "18e861cf-7c83-4d1d-9620-f39b1c9675c3"
+Path: /sitecore/templates/Project/Sugcon/Page Types/Product Detail Page/__Standard Values
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{2218ad4f-87c8-4686-9c44-d36d509562d6}">
+        <r
+          id="{cd5f924a-f7ff-4da4-b529-1d6c2284b78c}"
+          ph="header"
+          uid="{5B4893F1-86BA-4ABA-8CB3-1BD6B0D10CB0}" />
+        <r
+          id="{1fcab7c7-4fda-480f-87ed-c3e6260c4680}"
+          ph="main"
+          uid="{B3311C07-710E-40B0-82F5-A4E406A15FE8}" />
+        <r
+          id="{6147ed8e-4767-48cf-b1fc-fb197885513d}"
+          ph="main"
+          uid="{9FAACE1B-A27D-4172-B6D5-46CC459D6495}" />
+        <r
+          id="{44c01728-e271-4ae9-8ebd-f2469ff6153a}"
+          ph="main"
+          uid="{ED0A835A-FE4C-4449-8D67-4BE00EA39CB6}" />
+        <r
+          id="{3f703f0a-46be-45f6-bdff-3ae31cc56c21}"
+          ph="footer"
+          uid="{D40CD9A3-CC19-4772-AA17-191F399340C9}" />
+        <p
+          key="main"
+          uid="{5DD59012-E304-46E3-AB4A-DB549AC77FA8}"
+          md="{784bb722-9585-4f50-ae5a-6363fb0c0640}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190312T193657Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+          sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ceb7c0b-1775-49cc-83d3-608d3ba60533"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+          extranet\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190930T183117Z

@@ -1,0 +1,48 @@
+﻿---
+ID: "7c8db746-feb7-488a-8fee-646082baa2fd"
+Parent: "c1df1bc9-bfe8-4e74-8a6e-ba2fa32b9837"
+Template: "8a16d41f-ee3f-4ea2-93ca-33f2614bd724"
+Path: /sitecore/content/Sugcon/Shared Content/SUGCON Speakers/Neil Killen
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-50"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "096ffe16-5f8f-47c7-8c88-44a9f2855a2e"
+      Hint: Name
+      Value: Neil Kellen
+    - ID: "0bffa33a-9731-4093-aea9-1904618988f8"
+      Hint: Description
+      Value: I have been designing and developing solutions that live on the web for almost 20 years, with the last 9 years specializing in Sitecore. In 2019 I received my first Sitecore Technology MVP. It's a privilege to work with such highly skilled and passionate individuals and to contribute to this growing community.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220124T144808Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f61aea1-fd82-4fa7-ab77-b4eec3efed51"
+    - ID: "abeb2414-0c92-437c-9e67-23b7abca0c06"
+      Hint: DisplayPicture
+      Value: |
+        <image mediaid="{CB0DCEF7-C452-47D9-96F1-3B30CE0F9414}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c378888d-4a38-49bb-aeec-9f72132e0a15"
+      Hint: Short Note
+      Value: Sitecore MVP, Technical Director @ Valtech
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220125T075833Z

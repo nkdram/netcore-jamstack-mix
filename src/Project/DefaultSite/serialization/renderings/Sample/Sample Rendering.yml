@@ -1,0 +1,71 @@
+﻿---
+ID: "493b3a83-0fa7-4484-8fc9-4680991cf743"
+Parent: "1936b96e-da1f-4a3a-8aaf-8c46268e2d84"
+Template: "f1f1d639-4f54-40c2-8be0-81266b392ceb"
+Path: /sitecore/layout/Renderings/Sample/Sample Rendering
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/text_align_left.png
+- ID: "3fd02019-d7b6-4003-bc75-a04262c3cf49"
+  Hint: Login rendering
+  Value: 
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: 
+- ID: "78783f79-1411-4b91-958d-ad81f81e2485"
+  Hint: Path
+  Value: /xsl/sample rendering.xslt
+- ID: "8aa9bb12-1a7b-4bc0-851a-25b7a1ff3a88"
+  Hint: Placeholder
+  Value: content
+- ID: "cca35cd7-dc3d-4a2f-8e7f-f6ec68d49e74"
+  Hint: Parameters
+  Value: 
+- ID: "cedefac5-c7c3-4cf3-9aed-b5301f22da64"
+  Hint: Customize Page
+  Value: 
+- ID: "e67044ad-fb48-489e-83a6-263a89a8c948"
+  Hint: Data source
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20080311T115653:633408334132248977"
+    - ID: "58266fb1-bed3-46f1-997d-117a3f5556ee"
+      Hint: Description
+      Value: |
+        		<div>
+          <b>Sample Rendering</b>
+        <div>
+        <div style="padding:8px 8px 0px 8px;width:200px">
+        <img height="32" width="32" alt="Sample Rendering" style="float:left;margin:0px 8px 0px 0px" src="-/icon/Applications/32x32/text_align_left.png?w=32&amp;h=32&amp;as=1" />
+        <div>
+        The sample rendering draws a title and a text.
+        <div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div>
+        </div>
+        </div>
+        
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd582296-01c1-49c8-a284-53221366ece5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170224T064137Z

@@ -1,0 +1,15 @@
+{
+    "namespace": "Project.SugconContent",
+    "items": {
+        "includes": [
+            {
+                "name": "content",
+                "path": "/sitecore/content/Sugcon"
+            },
+          {
+            "name": "media",
+            "path": "/sitecore/media library/Sugcon 2022"
+          }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+﻿---
+ID: "a2987716-9e0c-4c49-bc3c-ea02995e4c62"
+Parent: "385ded77-1f35-498c-b1bb-07a901f619aa"
+Template: "2ac9f56b-53e0-4d83-9b04-a826af9dbdc0"
+Path: "/sitecore/content/Sugcon/Shared Content/Promo Cards/JamStackWithNetCore-Ram"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190501T180920Z
+    - ID: "2a1b85a6-092f-4129-bf11-c2f7e02ab1f2"
+      Hint: Headline
+      Value: .NET Core and Jamstack mix | A recipe for the future
+    - ID: "53945166-53c0-4646-9e82-34bade503c72"
+      Hint: Image
+      Value: |
+        <image mediaid="{160142A9-A213-43D2-A461-8BDBEE4867F5}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6d98cdb5-e980-4e48-b246-71e1b01b3989"
+      Hint: Text
+      Value: "Sitecore already supports SSG using Next.js Framework and other Javascript based generators - we see a new approach using .Net stack."
+    - ID: "87853995-6e28-466d-a5e4-c1bdbf3974bb"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{6EF11188-4B00-443C-8828-4ED3A68BE665}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "312984d4-0cfe-46f0-90f2-9b43bdc8463b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220124T093353Z

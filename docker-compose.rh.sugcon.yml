@@ -1,0 +1,48 @@
+version: "2.4"
+services:
+  renderinghost-sugcon-solution:
+    isolation: ${ISOLATION}
+    image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-renderinghost-sugcon-solution:${VERSION:-latest}
+    build:
+      context: ./
+      dockerfile: ./docker/build/renderingsolution-sugcon/Dockerfile
+      args:
+        BASE_IMAGE: ${SOLUTION_BASE_IMAGE}
+        BUILD_IMAGE: ${SOLUTION_BUILD_IMAGE}
+        BUILD_CONFIGURATION: ${BUILD_CONFIGURATION}
+        RENDERINGHOST_PROJECT_PATH: ${RENDERINGHOST_PROJECT_PATH_sugcon}
+    depends_on:
+      - dotnetsdk
+    scale: 0
+  renderinghost-sugcon:
+      image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-renderinghost-sugcon:${SITECORE_VERSION}
+      build:
+        context: ./docker/build/renderinghost-sugcon
+        target: ${BUILD_CONFIGURATION}
+        args:
+          DEBUG_BASE_IMAGE:  ${SOLUTION_BUILD_IMAGE}
+          RELEASE_BASE_IMAGE: ${NETCORE_BUILD_IMAGE}
+          SOLUTION_IMAGE: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
+          RENDERINGHOST_PROJECT_PATH: ${RENDERINGHOST_PROJECT_PATH_sugcon}
+      ports:
+        - "30159:80"
+      volumes:
+        -  .\:C:\solution
+      environment:
+        ASPNETCORE_ENVIRONMENT: "Development"
+        ASPNETCORE_URLS: "http://*:80"
+        Sitecore__InstanceUri: "http://cd"
+        Sitecore__EnableExperienceEditor: "true"
+        RENDERINGHOST_PROJECT: ${RENDERINGHOST_PROJECT_sugcon}
+      depends_on:
+        - renderinghost-sugcon-solution
+        - cm
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.rendering-sugcon-secure.entrypoints=websecure"
+        - "traefik.http.routers.rendering-sugcon-secure.rule=Host(`${RE_HOST_sugcon}`)"
+        - "traefik.http.routers.rendering-sugcon-secure.tls=true"
+      # healthcheck:
+      #   test: ["CMD", "curl", "-f", "http://localhost/healthz"]
+      #   interval: 60s
+      #   timeout: 30s

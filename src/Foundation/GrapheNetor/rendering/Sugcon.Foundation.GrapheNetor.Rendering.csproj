@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Sugcon.Foundation.GrapheNetor.Rendering</AssemblyName>
+    <RootNamespace>Sugcon.Foundation.GrapheNetor.Rendering</RootNamespace>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="GraphQLQueries\LayoutRequest.graphql" />
+    <None Remove="GraphQLQueries\SitePages.graphql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="GraphQLQueries\LayoutRequest.graphql" />
+    <EmbeddedResource Include="GraphQLQueries\SitePages.graphql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="1.0.0-alpha-844" />
+    <PackageReference Include="GraphQL.Client" Version="3.1.6" />
+    <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="3.1.6" />
+    <PackageReference Include="NetlifySharp" Version="1.1.0" />
+    <PackageReference Include="Sitecore.LayoutService.Client" Version="18.0" />
+    <PackageReference Include="Sitecore.AspNet.RenderingEngine" Version="18.0" />
+    <PackageReference Include="Statiq.App" Version="1.0.0-beta.48" />
+    <PackageReference Include="Statiq.Common" Version="1.0.0-beta.48" />
+    <PackageReference Include="Statiq.Core" Version="1.0.0-beta.48" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Caching\rendering\Sugcon.Foundation.Caching.Rendering.csproj" />
+  </ItemGroup>
+
+</Project>

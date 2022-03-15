@@ -1,0 +1,51 @@
+﻿---
+ID: "a9a1920f-78b4-4d92-9329-a767b7816966"
+Parent: "c1df1bc9-bfe8-4e74-8a6e-ba2fa32b9837"
+Template: "8a16d41f-ee3f-4ea2-93ca-33f2614bd724"
+Path: /sitecore/content/Sugcon/Shared Content/SUGCON Speakers/Ramkumar
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "096ffe16-5f8f-47c7-8c88-44a9f2855a2e"
+      Hint: Name
+      Value: Ramkumar Nambhi Krishnan Dhinakaran
+    - ID: "0bffa33a-9731-4093-aea9-1904618988f8"
+      Hint: Description
+      Value: |
+        I am a Sitecore MVP from Luxembourg with more than 9 years of Experience in Web Content Management and Digital Marketing.
+        
+        Currently working for Valtech, along these years - I have worked with different clients in various domains such as Insurance / Banking / Telecommunication / Healthcare / Automobile / Government / FMCG .
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220124T144800Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "75d61a2e-ab72-4770-aded-ed760a597ef5"
+    - ID: "abeb2414-0c92-437c-9e67-23b7abca0c06"
+      Hint: DisplayPicture
+      Value: |
+        <image mediaid="{19287B3D-C52B-4F5C-8453-FC788550E93B}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c378888d-4a38-49bb-aeec-9f72132e0a15"
+      Hint: Short Note
+      Value: Global Sitecore Lead Developer @ Valtech
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220124T145331Z

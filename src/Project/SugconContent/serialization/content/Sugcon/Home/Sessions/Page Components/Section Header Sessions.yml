@@ -1,0 +1,30 @@
+﻿---
+ID: "e3dbb97d-01bd-4bd1-b3ec-9fdaa228076d"
+Parent: "eb7f1245-4164-4629-8ff9-c8742b27c807"
+Template: "ee650351-3cc7-4bf7-af9f-0588757859fc"
+Path: /sitecore/content/Sugcon/Home/Sessions/Page Components/Section Header Sessions
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T085902Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2c02fd8-a496-437c-a511-a96eef472382"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220125T085921Z
+    - ID: "eef1d9c1-5da9-4b81-91d0-02f4a3ba12e5"
+      Hint: Text
+      Value: "SUGCON 22 - Sessions"

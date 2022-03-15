@@ -1,0 +1,16 @@
+{
+    "namespace": "Feature.Articles",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Feature/Articles"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Feature/Articles"
+            }
+         
+        ]
+    }
+}

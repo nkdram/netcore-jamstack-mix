@@ -1,0 +1,19 @@
+{
+    "namespace": "Feature.ProductsRH",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Feature/ProductsRH"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Feature/ProductsRH"
+            },
+            {
+                "name": "contents-resolvers",
+                "path": "/sitecore/system/Modules/Layout Service/Rendering Contents Resolvers/ProductsRH"
+            }
+        ]
+    }
+}

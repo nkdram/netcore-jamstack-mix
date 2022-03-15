@@ -1,0 +1,21 @@
+@model Authors
+
+<div class="container">
+    <div id="authors-grid" class="authors-wrapper">
+        <div class="authors-tab-container">
+            <ul class="authors-list">
+                @foreach (var author in Model.AllAuthors)
+                {
+                    <li class="author">
+                        <div class="author-photo">
+                            @Html.Raw(author.ProfilePicture)
+                        </div>
+                        <h3 class="author-name">@author.Name</h3>
+                        <h4 class="author-shortnote">@author.ShortNote</h4>
+                        <p class="author-bio">@author.Description</p>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+{
+    "namespace": "Feature.ServicesRH",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Feature/ServicesRH"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Feature/ServicesRH"
+            },
+            {
+                "name": "buttons",
+                "database": "core",
+                "path": "/sitecore/content/Applications/WebEdit/Custom Experience Buttons/ServicesRH"
+            }
+        ]
+    }
+}

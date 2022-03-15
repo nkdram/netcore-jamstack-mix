@@ -1,0 +1,46 @@
+﻿---
+ID: "5fb53c14-a094-4eb0-9088-23f14986d896"
+Parent: "385ded77-1f35-498c-b1bb-07a901f619aa"
+Template: "2ac9f56b-53e0-4d83-9b04-a826af9dbdc0"
+Path: "/sitecore/content/Sugcon/Shared Content/Promo Cards/SendFromHeaven-Sebastien"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190501T175842Z
+    - ID: "2a1b85a6-092f-4129-bf11-c2f7e02ab1f2"
+      Hint: Headline
+      Value: "Send from heaven?"
+    - ID: "53945166-53c0-4646-9e82-34bade503c72"
+      Hint: Image
+      Value: |
+        <image mediaid="{D1B64CB7-3584-4246-BAB1-42D9A73B362D}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+          sitecore\admin
+    - ID: "6d98cdb5-e980-4e48-b246-71e1b01b3989"
+      Hint: Text
+      Value: |
+        <p><span style="color: #202124;">With Sitecore having embarked on the "Composable Journey", where the integrations are still limited and we see how one of these can play with the classic Sitecore XM.</span></p>
+    - ID: "87853995-6e28-466d-a5e4-c1bdbf3974bb"
+      Hint: Link
+      Value: |
+          <link text="" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{6ef11188-4b00-443c-8828-4ed3a68be665}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "de1a0aaa-e97c-4b40-8f1c-830bf31ad4e4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220124T093423Z

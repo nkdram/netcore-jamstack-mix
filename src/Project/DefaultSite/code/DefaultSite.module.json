@@ -1,0 +1,39 @@
+{
+  "namespace": "Project.DefaultSite",
+  "items": {
+    "includes": [
+      {
+        "name": "layouts",
+        "path": "/sitecore/layout/Layouts/Sample Layout"
+      },
+      {
+        "name": "renderings",
+        "path": "/sitecore/layout/Renderings/Sample"
+      },
+      {
+        "name": "sample datasource sublayout",
+        "path": "/sitecore/layout/Sublayouts/Sample Datasource Sublayout"
+      },
+      {
+        "name": "sample inner sublayout",
+        "path": "/sitecore/layout/Sublayouts/Sample Inner Sublayout"
+      },
+      {
+        "name": "sample sublayout",
+        "path": "/sitecore/layout/Sublayouts/Sample Sublayout"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Default Website"
+      },
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Sample"
+      },
+      {
+        "name": "content",
+        "path": "/sitecore/content/Home"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+﻿---
+ID: "25d29758-44ed-4f51-b1db-264a1d1eb1db"
+Parent: "48d6b30a-1f85-4c70-9ee5-3e957da07fd7"
+Template: "8e2a07f9-c938-48fd-9104-9ebf9b323276"
+Path: /sitecore/templates/Branches/Project/Sugcon/Services Page/$name/Page Components
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190312T172701Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7fab3e17-0e43-48b1-824b-c2445607180f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+          sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190930T183116Z

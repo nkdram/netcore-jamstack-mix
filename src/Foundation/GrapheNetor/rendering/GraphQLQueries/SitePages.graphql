@@ -1,0 +1,26 @@
+﻿fragment innerFields on Item {
+    id
+    path
+    homeItemPath: path 
+    language{
+      name
+    }
+}
+
+query SitePages($site: String!, $routePath: String!, $language: String!){
+  layout(site: $site, routePath: $routePath, language: $language) {
+    item {
+      ...innerFields
+      children(hasLayout: true) {
+        results {
+          ...innerFields
+          children(hasLayout: true) {
+            results {
+            	...innerFields
+            }
+          }
+        }
+      }
+    }
+  }
+}

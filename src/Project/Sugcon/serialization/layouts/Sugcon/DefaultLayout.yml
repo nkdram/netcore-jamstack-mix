@@ -1,0 +1,34 @@
+﻿---
+ID: "2218ad4f-87c8-4686-9c44-d36d509562d6"
+Parent: "2c7ca352-6762-4f0f-b335-389e3c8abdc1"
+Template: "35c61e90-47dd-43dd-83a8-d1c4d5119720"
+Path: /sitecore/layout/Layouts/Project/Sugcon/DefaultLayout
+SharedFields:
+- ID: "80334869-86dc-4472-aa89-44cf1b2f6c9b"
+  Hint: Placeholders
+  Value: |
+    {1B18C5F8-2CF6-4F62-83C3-E68BBDAA8C12}
+    {7DD116F7-CF38-4D1E-A9CA-5235203777CA}
+    {E78DE0F9-B784-4B71-8A17-010EB14E2804}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190221T205604Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+          sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0d0221be-9aad-4a50-97d3-f51f55055e7c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200625T180316Z

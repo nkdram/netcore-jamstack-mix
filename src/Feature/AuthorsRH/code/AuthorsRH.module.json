@@ -1,0 +1,19 @@
+{
+  "namespace": "Feature.AuthorsRH",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Feature/AuthorsRH"
+      },
+      {
+        "name": "renderings",
+        "path": "/sitecore/layout/Renderings/Feature/AuthorsRH"
+      },
+      {
+        "name": "contents-resolvers",
+        "path": "/sitecore/system/Modules/Layout Service/Rendering Contents Resolvers/AuthorsRH"
+      }
+    ]
+  }
+}

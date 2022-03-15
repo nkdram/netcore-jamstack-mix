@@ -1,0 +1,33 @@
+---
+ID: "ec414731-5671-4ed1-917d-fdf38a5680fd"
+Parent: "7da6d05b-5d7d-46b7-94cd-0f063551ffc9"
+Template: "7da6d05b-5d7d-46b7-94cd-0f063551ffc9"
+Path: /sitecore/templates/Feature/BasicRH/Section Header Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {EE650351-3CC7-4BF7-AF9F-0588757859FC}
+    {7DA6D05B-5D7D-46B7-94CD-0F063551FFC9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190222T184139Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+          sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f47dacd-1873-404b-9718-0109fc10db20"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+          sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190930T183114Z

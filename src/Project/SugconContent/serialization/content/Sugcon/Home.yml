@@ -1,0 +1,114 @@
+﻿---
+ID: "98667934-0137-49d0-9bc7-45ee30c532bf"
+Parent: "5e110c79-d736-4ccc-bf52-592c660034df"
+Template: "49588140-2f59-4f56-ae5a-e3fb922ac29f"
+Path: /sitecore/content/Sugcon/Home
+BranchID: "82843e6d-a692-476d-b302-341bfafcda65"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F2D0B8B5-968E-4D21-8484-453C20036420}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7D4F689F-208C-4EA3-88BA-0BC6E615771E}">
+              <p:d />
+            </r>
+            <r
+              uid="{66B647E6-3D33-45EF-AF06-EBB2175BC56B}">
+              <p:d />
+            </r>
+            <p
+              uid="{AB3DDBCD-D054-4223-9EC1-5A9CDDB395A8}">
+              <p:d />
+            </p>
+            <r
+              uid="{7945785B-F2E4-4674-B2AA-DAC923054921}"
+              p:before="*"
+              s:ds="{A2987716-9E0C-4C49-BC3C-EA02995E4C62}"
+              s:id="{71923E36-3EB7-4125-B6BB-03A98E55BAD4}"
+              s:ph="/main/promos-{27950062-5A5C-4229-B4A2-A15E96A64983}-0" />
+            <r
+              uid="{41C08330-B62A-4152-ABA8-67E1B24ACD6B}"
+              p:after="r[@uid='{7945785B-F2E4-4674-B2AA-DAC923054921}']"
+              s:ds="{89FC70A0-371A-4F60-BCFC-C5EE1A543FBC}"
+              s:id="{71923E36-3EB7-4125-B6BB-03A98E55BAD4}"
+              s:ph="/main/promos-{27950062-5A5C-4229-B4A2-A15E96A64983}-0" />
+            <r
+              uid="{EB36BE6C-DC27-4A60-BBE1-5A7CD13CB745}"
+              p:after="r[@uid='{41C08330-B62A-4152-ABA8-67E1B24ACD6B}']"
+              s:ds="{5FB53C14-A094-4EB0-9088-23F14986D896}"
+              s:id="{71923E36-3EB7-4125-B6BB-03A98E55BAD4}"
+              s:ph="/main/promos-{27950062-5A5C-4229-B4A2-A15E96A64983}-0" />
+            <r
+              uid="{5FFB924A-F419-4C0E-BDB5-F7B2F7B48A3B}"
+              p:after="r[@uid='{EB36BE6C-DC27-4A60-BBE1-5A7CD13CB745}']"
+              s:ds="{577FA16E-E3CD-4A02-A754-49FD9C422A18}"
+              s:id="{77B17F3B-905E-458E-BE51-7565DD3FDFD2}"
+              s:ph="main" />
+            <r
+              uid="{40C3C23E-1FD4-4627-B5D2-C764D856FE57}"
+              p:after="r[@uid='{5FFB924A-F419-4C0E-BDB5-F7B2F7B48A3B}']"
+              s:ds="{30857100-321B-43A9-A20F-81669163E06D}"
+              s:id="{1DC6FF30-BA05-412C-A34F-5CC63478068F}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{930751B6-EFE1-4FBF-96DC-28E780DB77CD}"
+              p:after="r[@uid='{40C3C23E-1FD4-4627-B5D2-C764D856FE57}']"
+              s:ds="{4FAC581A-6B1B-4AD8-8FA3-7689EDCABC8B}"
+              s:id="{1DC6FF30-BA05-412C-A34F-5CC63478068F}"
+              s:ph="main" />
+            <r
+              uid="{6B3C5107-91C1-4C61-9419-F27089741991}"
+              p:after="r[@uid='{930751B6-EFE1-4FBF-96DC-28E780DB77CD}']"
+              s:id="{CD5F924A-F7FF-4DA4-B529-1D6C2284B78C}"
+              s:ph="header" />
+            <r
+              uid="{9CC05949-818A-4637-89AD-B59E1AE81D52}"
+              p:after="r[@uid='{6B3C5107-91C1-4C61-9419-F27089741991}']"
+              s:id="{3F703F0A-46BE-45F6-BDFF-3AE31CC56C21}"
+              s:ph="footer" />
+            <r
+              uid="{27950062-5A5C-4229-B4A2-A15E96A64983}"
+              p:after="*[1=2]"
+              s:id="{A5D9C52D-196E-48CD-9534-C2B9A2BB5558}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220121T110148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "830194df-bd3d-477c-ab2f-9e1eea78534a"
+      Hint: HeaderLogo
+      Value: |
+        <image mediaid="{519AF1EC-6B57-479F-BA0F-8A1C03BA5064}" alt="" height="192" width="160" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8682d94-80ce-48df-8497-2b68109b8aac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220303T134424Z

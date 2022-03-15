@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Sugcon.Feature.Articles.Rendering</AssemblyName>
+    <RootNamespace>Sugcon.Feature.Articles.Rendering</RootNamespace>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sitecore.LayoutService.Client" Version="18.0" />
+    <PackageReference Include="Sitecore.AspNet.RenderingEngine" Version="18.0" />
+  </ItemGroup>
+
+</Project>

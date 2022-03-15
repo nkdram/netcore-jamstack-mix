@@ -1,0 +1,27 @@
+﻿---
+ID: "abb1807a-51ca-4409-847f-f30780a904c2"
+Parent: "2b8d1d92-d17c-45c2-a0bb-5883d62a0f63"
+Template: "7da6d05b-5d7d-46b7-94cd-0f063551ffc9"
+Path: /sitecore/content/Sugcon/Shared Content/Section Headers
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190311T184339Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "447b3cac-cc43-46b9-b0b9-86d9465ab281"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+          extranet\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190930T183116Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "d403ed7f-e888-40c6-88d1-cbebd08ee08b"
+Parent: "9af7a202-ea04-4247-9e96-ba51881dbc5c"
+Template: "9a23bb5b-f128-4b41-a63a-6469f50a53cd"
+Path: /sitecore/content/Sugcon/Home/Venue/Page Components/Venue Hero Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T104640Z
+    - ID: "49cb22f4-3ac2-457f-8b83-0360a60c2155"
+      Hint: Image
+      Value: |
+        <image mediaid="{3FB0218B-D327-4027-9C7A-EC07B3C0D0B7}" alt="Venue" height="" width="" hspace="" vspace="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d5c68d91-3809-416b-aa44-ab3debc76e3a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c3bc9765-75e4-4ff2-a3e0-3daa8f420627"
+      Hint: Title
+      Value: Venue
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220125T104735Z
+    - ID: "f22a8600-dd07-447b-a7d6-44adbf9e45fc"
+      Hint: Subtitle
+      Value: "SUGCON EU 2022 will be held in Budapest Congress Center, Hungary. Budapest, Jagelló út 1-3, 1123, Hungary"

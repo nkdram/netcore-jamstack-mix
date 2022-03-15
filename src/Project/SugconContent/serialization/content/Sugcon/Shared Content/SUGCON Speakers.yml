@@ -1,0 +1,23 @@
+﻿---
+ID: "c1df1bc9-bfe8-4e74-8a6e-ba2fa32b9837"
+Parent: "2b8d1d92-d17c-45c2-a0bb-5883d62a0f63"
+Template: "bafebc38-a4ee-4777-8768-f9d82f317aba"
+Path: /sitecore/content/Sugcon/Shared Content/SUGCON Speakers
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220124T144753Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "037796e7-e7c1-4fcc-ad21-d462f3494fb0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220124T144753Z

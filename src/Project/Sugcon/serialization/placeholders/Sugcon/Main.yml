@@ -1,0 +1,35 @@
+﻿---
+ID: "7dd116f7-cf38-4d1e-a9ca-5235203777ca"
+Parent: "72ff3c40-7170-4f6c-90f6-7c7edc68493e"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/Sugcon/Main
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: main
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {77B17F3B-905E-458E-BE51-7565DD3FDFD2}
+    {A5D9C52D-196E-48CD-9534-C2B9A2BB5558}
+    {1DC6FF30-BA05-412C-A34F-5CC63478068F}
+    {B252ECA6-0C19-404C-A8E6-C42A14899080}
+    {5CA592F7-DDB4-4927-A958-41D9DAD70ECB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190222T154343Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c9fcf6e-615e-4fd4-b4d1-6b88e12b31f4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220124T170734Z

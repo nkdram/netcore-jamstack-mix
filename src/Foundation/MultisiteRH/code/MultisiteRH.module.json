@@ -1,0 +1,11 @@
+{
+    "namespace": "Foundation.MultisiteRH",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Foundation/MultisiteRH"
+            }
+        ]
+    }
+}

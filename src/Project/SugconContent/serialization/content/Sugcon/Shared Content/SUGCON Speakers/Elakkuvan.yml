@@ -1,0 +1,51 @@
+﻿---
+ID: "83030bd4-0e6c-47df-8c39-7257efac9c84"
+Parent: "c1df1bc9-bfe8-4e74-8a6e-ba2fa32b9837"
+Template: "8a16d41f-ee3f-4ea2-93ca-33f2614bd724"
+Path: /sitecore/content/Sugcon/Shared Content/SUGCON Speakers/Elakkuvan
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "096ffe16-5f8f-47c7-8c88-44a9f2855a2e"
+      Hint: Name
+      Value: Elakkuvan Rajamani
+    - ID: "0bffa33a-9731-4093-aea9-1904618988f8"
+      Hint: Description
+      Value: |
+        I am a Senior Sitecore Developer having 8 years of experience in the Web Development.
+        
+        I am currently working in Valtech France. I have experience working with different multinational clients like Loreal, Royal Canin, Walt Distney, Winn Dixie etc.,
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220124T144823Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef6946be-ac7f-4d73-aae0-a594388371ee"
+    - ID: "abeb2414-0c92-437c-9e67-23b7abca0c06"
+      Hint: DisplayPicture
+      Value: |
+        <image mediaid="{EE88D41D-A5BF-43E1-A34E-65AD9AEDF178}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c378888d-4a38-49bb-aeec-9f72132e0a15"
+      Hint: Short Note
+      Value: Senior Sitecore Consultant @ Valtech
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220124T145319Z

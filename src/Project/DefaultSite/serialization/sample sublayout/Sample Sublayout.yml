@@ -1,0 +1,30 @@
+﻿---
+ID: "885b8314-7d8c-4cbb-8000-01421ea8f406"
+Parent: "eb443c0b-f923-409e-85f3-e7893c8c30c2"
+Template: "0a98e368-cdb9-4e1e-927c-8e0c24a003fb"
+Path: /sitecore/layout/Sublayouts/Sample Sublayout
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/column.png
+- ID: "e42081b6-8a95-4a11-89ce-df70ed502f57"
+  Hint: Path
+  Value: /layouts/Sample Sublayout.ascx
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20071219T091010
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e8ef8c1-ba51-4b63-b616-4728896ce0b2"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20080201T152258
