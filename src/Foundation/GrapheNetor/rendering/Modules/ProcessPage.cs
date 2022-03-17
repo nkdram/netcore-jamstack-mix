@@ -12,16 +12,20 @@ using System.Text;
 using System.Threading.Tasks;
 using static Sugcon.Foundation.GrapheNetor.Rendering.Response.SitePagesResponse;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Configuration;
+using Sugcon.Foundation.GrapheNetor.Rendering.Helpers;
 
 namespace Sugcon.Foundation.GrapheNetor.Rendering.Modules
 {
     public class ProcessPage : Module
     {
         private readonly IGraphQLService<LayoutResponse> _service;
+        private readonly IConfiguration _configuration;
 
-        public ProcessPage(IGraphQLService<LayoutResponse> service)
+        public ProcessPage(IGraphQLService<LayoutResponse> service, IServiceProvider serviceprovider)
         {
             _service = service ?? throw new ArgumentNullException("GraphQlLayoutRequestService", "GraphQlLayoutRequestService must not be null");
+            _configuration = (IConfiguration)serviceprovider.GetService(typeof(IConfiguration));
         }
 
         protected override async Task<IEnumerable<IDocument>> ExecuteContextAsync(IExecutionContext context)
@@ -51,7 +55,7 @@ namespace Sugcon.Foundation.GrapheNetor.Rendering.Modules
                 {
                     Language = page.language.name,
                     RoutePath = pagePath,
-                    Site = "Sugcon" // Need to pull from Sitecore Confguration
+                    Site = _configuration.GetConfigurationEntries(Constants.Configuration_GrapheNetor_Pipelines_Site)
                 }));
 
                 ///2.2 : Create a keyValue list to map custom object in Idocument
