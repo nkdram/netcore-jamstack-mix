@@ -36,7 +36,7 @@ namespace Sugcon.Foundation.GrapheNetor.Rendering.Pipelines
                     Site = configuration.GetConfigurationEntries(Constants.Configuration_GrapheNetor_Pipelines_Site)
                 }),
                 //step 2: Get Layout Service - Store it in a location<Redis>
-                new ProcessPage(layoutService)
+                new ProcessPage(layoutService,serviceprovider)
             };
 
             ProcessModules = new Statiq.Common.ModuleList
